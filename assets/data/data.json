@@ -15,24 +15,28 @@
     "about": "Técnico en programación de software con formación en análisis, diseño, desarrollo e implementación de aplicaciones orientadas a base de datos y entornos web. Manejo de herramientas y lenguajes de programación para crear soluciones funcionales y seguras. Cuento con competencias para aplicar metodologías ágiles, realizar pruebas de sistemas, aplicar buenas prácticas de desarrollo.",
     "technologies": [
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Binario"
+            "icon": "devicon-html5-plain colored",
+            "name": "HTML"
         },
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Ensamblador"
+            "icon": "devicon-css3-plain colored",
+            "name": "CSS"
         },
         {
-            "icon": "devicon-devicon-plain",
-            "name": "COBOL"
+            "icon": "devicon-javascript-plain colored",
+            "name": "JavaScript"
         },
         {
-            "icon": "devicon-c-plain",
-            "name": "C"
+            "icon": "devicon-bootstrap-plain colored",
+            "name": "Bootstrap"
         },
         {
-            "icon": "devicon-python-plain",
+            "icon": "devicon-python-plain colored",
             "name": "Python"
+        },
+        {
+            "icon": "devicon-postman-plain colored",
+            "name": "Postman"
         }
     ],
     "experience": [
