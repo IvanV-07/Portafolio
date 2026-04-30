@@ -111,22 +111,19 @@
     ],
     "extras": [
         {
-            "image": "/extra_1.jpg",
-            "title": "The Matrix",
-            "description": "Aparecí en esta película.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix"
+            "image": "/Certificado_1.png",
+            "title": "Politécnico de Colombia",
+            "description": "Diplomado en programación en Java"
         },
         {
-            "image": "/extra_2.jpg",
-            "title": "The Matrix Reloaded",
-            "description": "Y en esta otra.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Reloaded"
+            "image": "/Certificado_2.png",
+            "title": "Platzi",
+            "description": "Fundamentos de programación y desarrollo web"
         },
         {
-            "image": "/extra_3.jpg",
-            "title": "The Matrix Revolutions",
-            "description": "Y en esta más.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Revolutions"
+            "image": "/Certificado_3.png",
+            "title": "Colombo Americano",
+            "description": "Formación académica en inglés skills four"
         }
     ]
 }
