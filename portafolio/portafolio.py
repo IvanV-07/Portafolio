@@ -37,7 +37,7 @@ app = rx.App(
     stylesheets=STYLESHEETS,
     style=BASE_STYLE,
     theme=rx.theme(
-        appearance="light",
+        appearance="dark",
         accent_color="mint",
         radius="full"
     )
