@@ -6,81 +6,82 @@ from portafolio.styles.styles import IMAGE_HEIGHT, EmSize, Size
 
 
 def info_detail(info: Info) -> rx.Component:
-    return rx.flex(
+    body_children = [
+        rx.text.strong(info.title),
+        rx.text(info.subtitle),
+        rx.text(
+            info.description,
+            size=Size.SMALL.value,
+            color_scheme="gray",
+        ),
+    ]
+
+    if info.technologies:
+        body_children.append(
+            rx.flex(
+                *[
+                    rx.badge(
+                        rx.box(class_name=technology.icon),
+                        technology.name,
+                        color_scheme="gray",
+                    )
+                    for technology in info.technologies
+                ],
+                wrap="wrap",
+                spacing=Size.SMALL.value,
+            )
+        )
+
+    link_buttons = []
+    if info.url:
+        link_buttons.append(icon_button("link", info.url))
+    if info.github:
+        link_buttons.append(icon_button("github", info.github))
+    if link_buttons:
+        body_children.append(rx.hstack(*link_buttons))
+
+    side_children = []
+    if info.date:
+        side_children.append(rx.badge(info.date))
+    if info.certificate:
+        side_children.append(
+            icon_button("shield-check", info.certificate, solid=True)
+        )
+
+    flex_children = [
         rx.hstack(
             icon_badge(info.icon),
             rx.vstack(
-                rx.text.strong(info.title),
-                rx.text(info.subtitle),
-                rx.text(
-                    info.description,
-                    size=Size.SMALL.value,
-                    color_scheme="gray"
-                ),
-                rx.cond(
-                    info.technologies,
-                    rx.flex(
-                        *[
-                            rx.badge(
-                                rx.box(class_name=technology.icon),
-                                technology.name,
-                                color_scheme="gray"
-                            )
-                            for technology in info.technologies
-                        ],
-                        wrap="wrap",
-                        spacing=Size.SMALL.value
-                    )
-                ),
-                rx.hstack(
-                    rx.cond(
-                        info.url != "",
-                        icon_button(
-                            "link",
-                            info.url
-                        )
-                    ),
-                    rx.cond(
-                        info.github != "",
-                        icon_button(
-                            "github",
-                            info.github
-                        )
-                    )
-                ),
+                *body_children,
                 spacing=Size.SMALL.value,
-                width="100%"
+                width="100%",
             ),
             spacing=Size.DEFAULT.value,
-            width="100%"
+            width="100%",
         ),
-        rx.cond(
-            info.image != "",
+    ]
+    if info.image:
+        flex_children.append(
             rx.image(
                 src=info.image,
                 height=IMAGE_HEIGHT,
                 width="auto",
                 border_radius=EmSize.DEFAULT.value,
-                object_fit="cover"
+                object_fit="cover",
             )
-        ),
-        rx.vstack(
-            rx.cond(
-                info.date != "",
-                rx.badge(info.date)
-            ),
-            rx.cond(
-                info.certificate != "",
-                icon_button(
-                    "shield-check",
-                    info.certificate,
-                    solid=True
-                )
-            ),
-            spacing=Size.SMALL.value,
-            align="end"
-        ),
+        )
+    if side_children:
+        flex_children.append(
+            rx.vstack(
+                *side_children,
+                spacing=Size.SMALL.value,
+                align="end",
+            )
+        )
+
+    return rx.flex(
+        *flex_children,
         flex_direction=["column-reverse", "row"],
         spacing=Size.DEFAULT.value,
-        width="100%"
+        width="100%",
     )
