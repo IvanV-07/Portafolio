@@ -11,5 +11,5 @@ def icon_badge(icon: str, colored: bool = False) -> rx.Component:
         ),
         aspect_ratio="1",
         variant="soft",
-        color_scheme="grass" if colored else "gray"
+        color_scheme="mint" if colored else "gray"
     )
