@@ -57,38 +57,58 @@
     ],
     "projects": [
         {
-            "icon": "bar-chart-4",
-            "title": "Software random",
-            "subtitle": "Software propiedad de Metacortex",
-            "description": "Herramienta para hacer rico a otras personas.",
+            "icon": "database",
+            "title": "API_Intercolegiados",
+            "subtitle": "Proyecto SENA",
+            "description": "Herramienta para consultar información sobre los intercolegiados.",
             "technologies": [
                 {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
+                    "icon": "devicon-csharp-plain colored",
+                    "name": "C#"
                 },
                 {
-                    "icon": "devicon-django-plain",
-                    "name": "Django"
+                    "icon": "devicon-dot-net-plain colored",
+                    "name": "ASP.NET"
+                },
+                {
+                    "icon": "devicon-microsoftsqlserver-plain colored",
+                    "name": "SQL Server"
+                },
+                {
+                    "icon": "devicon-vscode-plain colored",
+                    "name": "VS Code"
                 }
             ],
-            "image": "/project_1.jpg",
-            "url": "https://matrix.fandom.com/wiki/MetaCortex",
-            "github": "https://github.com/thomasanderson"
+            "image": "/project_1.png",
+            "url": "",
+            "github": "https://github.com/IvanV-07/API_Intercolegiados"
         },
         {
-            "icon": "bug-off",
-            "title": "Hackeo Matrix",
-            "subtitle": "Mi obra maestra",
-            "description": "Migración del Matrix al mundo real y hackeo del sistema ficticio para salvar a la humanidad.",
+            "icon": "swords",
+            "title": "Monster_HunterMon",
+            "subtitle": "Proyecto Platzi",
+            "description": "Juego de enfrentamiento entre monstruos.",
             "technologies": [
                 {
-                    "icon": "devicon-devicon-plain",
-                    "name": "Binario"
+                    "icon": "devicon-javascript-plain colored",
+                    "name": "JavaScript"
+                },
+                {
+                    "icon": "devicon-html5-plain colored",
+                    "name": "HTML5"
+                },
+                {
+                    "icon": "devicon-css3-plain colored",
+                    "name": "CSS3"
+                },
+                {
+                    "icon": "devicon-git-plain colored",
+                    "name": "Git"
                 }
             ],
-            "image": "/project_2.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
+            "image": "/project_2.png",
+            "url": "",
+            "github": "https://github.com/IvanV-07/Monster_HunterMon"
         }
     ],
     "training": [

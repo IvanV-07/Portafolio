@@ -65,7 +65,7 @@ def info_detail(info: Info, colored_icon: bool = False) -> rx.Component:
             rx.image(
                 src=info.image,
                 height=IMAGE_HEIGHT,
-                width="auto",
+                width="300px",
                 border_radius=EmSize.DEFAULT.value,
                 object_fit="cover",
             )
