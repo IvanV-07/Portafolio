@@ -1,7 +1,7 @@
 import reflex as rx
 from portafolio.data import Extra
 
-from portafolio.styles.styles import IMAGE_HEIGHT, Size
+from portafolio.styles.styles import EmSize, IMAGE_HEIGHT, Size
 
 
 def card_detail(extra: Extra) -> rx.Component:
@@ -13,9 +13,9 @@ def card_detail(extra: Extra) -> rx.Component:
                 width="100%",
                 object_fit="cover"
             ),
-            pb=Size.DEFAULT.value
+            pb=Size.MEDIUM.value
         ),
-        rx.text.strong(extra.title),
+        rx.text.strong(extra.title, margin_top=EmSize.DEFAULT.value),
         rx.text(
             extra.description,
             size=Size.SMALL.value,
