@@ -25,7 +25,7 @@ STYLESHEETS = [
 
 BASE_STYLE = {
     "body": {
-        "background_color": "#f0f0f0"
+        "background_color": "#0f1f1a"
     },
     rx.button: {
         "--cursor-button": "pointer"
