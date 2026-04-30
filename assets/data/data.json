@@ -1,18 +1,18 @@
 {
-    "title": "Thomas A. Anderson (Neo) | Portafolio",
-    "description": "Soy Neo, posiblemente el mejor programador de la historia.",
+    "title": "Jorge Iván Villanueva Calderón | Portafolio",
+    "description": "Técnico en programación de software. Portafolio de proyectos y experiencia.",
     "image": "/avatar.jpg",
     "avatar": "/avatar.jpg",
-    "name": "Thomas A. Anderson (Neo)",
-    "skill": "Programador, hacker y el Elegido",
-    "location": "Matrix y el mundo real",
+    "name": "Jorge Iván Villanueva Calderón",
+    "skill": "Técnico en programación de software",
+    "location": "Bogotá, Colombia",
     "media": {
-        "email": "neo@metacortex.com",
+        "email": "ivanv_07@hotmail.com",
         "cv": "/data/cv.pdf",
-        "github": "https://github.com/thomasanderson",
-        "likedin": "https://linkedin.com/in/thomasanderson"
+        "github": "https://github.com/IvanV-07",
+        "likedin": "https://www.linkedin.com/in/jivillanueva07"
     },
-    "about": "Soy un programador inquieto con una doble vida, ya que trabajo en una prestigiosa empresa de software pero también he cometido todos los crímenes informáticos que existen. Tengo la sensación de que nada es lo que parece ser.",
+    "about": "Técnico en programación de software con formación en análisis, diseño, desarrollo e implementación de aplicaciones orientadas a base de datos y entornos web. Manejo de herramientas y lenguajes de programación para crear soluciones funcionales y seguras. Cuento con competencias para aplicar metodologías ágiles, realizar pruebas de sistemas, aplicar buenas prácticas de desarrollo.",
     "technologies": [
         {
             "icon": "devicon-devicon-plain",
