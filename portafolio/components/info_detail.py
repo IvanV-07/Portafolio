@@ -5,7 +5,7 @@ from portafolio.data import Info
 from portafolio.styles.styles import IMAGE_HEIGHT, EmSize, Size
 
 
-def info_detail(info: Info) -> rx.Component:
+def info_detail(info: Info, colored_icon: bool = False) -> rx.Component:
     body_children = [
         rx.text.strong(info.title),
         rx.text(info.subtitle),
@@ -50,7 +50,7 @@ def info_detail(info: Info) -> rx.Component:
 
     flex_children = [
         rx.hstack(
-            icon_badge(info.icon),
+            icon_badge(info.icon, colored=colored_icon),
             rx.vstack(
                 *body_children,
                 spacing=Size.SMALL.value,
@@ -65,7 +65,7 @@ def info_detail(info: Info) -> rx.Component:
             rx.image(
                 src=info.image,
                 height=IMAGE_HEIGHT,
-                width="auto",
+                width="300px",
                 border_radius=EmSize.DEFAULT.value,
                 object_fit="cover",
             )

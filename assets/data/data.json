@@ -15,114 +15,120 @@
     "about": "Técnico en programación de software con formación en análisis, diseño, desarrollo e implementación de aplicaciones orientadas a base de datos y entornos web. Manejo de herramientas y lenguajes de programación para crear soluciones funcionales y seguras. Cuento con competencias para aplicar metodologías ágiles, realizar pruebas de sistemas, aplicar buenas prácticas de desarrollo.",
     "technologies": [
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Binario"
+            "icon": "devicon-html5-plain colored",
+            "name": "HTML"
         },
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Ensamblador"
+            "icon": "devicon-css3-plain colored",
+            "name": "CSS"
         },
         {
-            "icon": "devicon-devicon-plain",
-            "name": "COBOL"
+            "icon": "devicon-javascript-plain colored",
+            "name": "JavaScript"
         },
         {
-            "icon": "devicon-c-plain",
-            "name": "C"
+            "icon": "devicon-bootstrap-plain colored",
+            "name": "Bootstrap"
         },
         {
-            "icon": "devicon-python-plain",
+            "icon": "devicon-python-plain colored",
             "name": "Python"
-        }
-    ],
-    "experience": [
-        {
-            "icon": "terminal",
-            "title": "Metacortex",
-            "subtitle": "Programador",
-            "description": "Programo software respetable desde un cubículo.",
-            "date": "1999"
         },
         {
-            "icon": "rabbit",
-            "title": "Nebuchadnezzar",
-            "subtitle": "El Elegido",
-            "description": "Me encargo de salvar el mundo.",
-            "date": "1999 - Actualidad"
+            "icon": "devicon-postman-plain colored",
+            "name": "Postman"
         }
     ],
+    "experience": [],
     "projects": [
         {
-            "icon": "bar-chart-4",
-            "title": "Software random",
-            "subtitle": "Software propiedad de Metacortex",
-            "description": "Herramienta para hacer rico a otras personas.",
+            "icon": "database",
+            "title": "API_Intercolegiados",
+            "subtitle": "Proyecto SENA",
+            "description": "Herramienta para consultar información sobre los intercolegiados.",
             "technologies": [
                 {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
+                    "icon": "devicon-csharp-plain colored",
+                    "name": "C#"
                 },
                 {
-                    "icon": "devicon-django-plain",
-                    "name": "Django"
+                    "icon": "devicon-dot-net-plain colored",
+                    "name": "ASP.NET"
+                },
+                {
+                    "icon": "devicon-microsoftsqlserver-plain colored",
+                    "name": "SQL Server"
+                },
+                {
+                    "icon": "devicon-vscode-plain colored",
+                    "name": "VS Code"
                 }
             ],
-            "image": "/project_1.jpg",
-            "url": "https://matrix.fandom.com/wiki/MetaCortex",
-            "github": "https://github.com/thomasanderson"
+            "image": "/project_1.png",
+            "url": "",
+            "github": "https://github.com/IvanV-07/API_Intercolegiados"
         },
         {
-            "icon": "bug-off",
-            "title": "Hackeo Matrix",
-            "subtitle": "Mi obra maestra",
-            "description": "Migración del Matrix al mundo real y hackeo del sistema ficticio para salvar a la humanidad.",
+            "icon": "swords",
+            "title": "Monster_HunterMon",
+            "subtitle": "Proyecto Platzi",
+            "description": "Juego de enfrentamiento entre monstruos.",
             "technologies": [
                 {
-                    "icon": "devicon-devicon-plain",
-                    "name": "Binario"
+                    "icon": "devicon-javascript-plain colored",
+                    "name": "JavaScript"
+                },
+                {
+                    "icon": "devicon-html5-plain colored",
+                    "name": "HTML"
+                },
+                {
+                    "icon": "devicon-css3-plain colored",
+                    "name": "CSS"
+                },
+                {
+                    "icon": "devicon-git-plain colored",
+                    "name": "Git"
                 }
             ],
-            "image": "/project_2.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
+            "image": "/project_2.png",
+            "url": "",
+            "github": "https://github.com/IvanV-07/Monster_HunterMon"
         }
     ],
     "training": [
         {
-            "icon": "backpack",
-            "title": "Central West Junior High",
-            "subtitle": "Una escuela",
-            "description": "Aprendí cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "icon": "graduation-cap",
+            "title": "Servicio Nacional de Aprendizaje SENA",
+            "subtitle": "Técnico en programación de software",
+            "description": "",
+            "date": "2024",
+            "certificate": ""
         },
         {
             "icon": "graduation-cap",
-            "title": "Owen Patterson High",
-            "subtitle": "Otra escuela",
-            "description": "Aprendí más cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "title": "Servicio Nacional de Aprendizaje SENA",
+            "subtitle": "Tecnología en control ambiental",
+            "description": "",
+            "date": "2016",
+            "certificate": ""
         }
     ],
     "extras": [
         {
-            "image": "/extra_1.jpg",
-            "title": "The Matrix",
-            "description": "Aparecí en esta película.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix"
+            "image": "/Certificado_1.png",
+            "title": "Politécnico de Colombia",
+            "description": "Diplomado en programación en Java"
         },
         {
-            "image": "/extra_2.jpg",
-            "title": "The Matrix Reloaded",
-            "description": "Y en esta otra.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Reloaded"
+            "image": "/Certificado_2.png",
+            "title": "Platzi",
+            "description": "Fundamentos de programación y desarrollo web"
         },
         {
-            "image": "/extra_3.jpg",
-            "title": "The Matrix Revolutions",
-            "description": "Y en esta más.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Revolutions"
+            "image": "/Certificado_3.png",
+            "title": "Colombo Americano",
+            "description": "Formación académica en inglés skills four"
         }
     ]
 }

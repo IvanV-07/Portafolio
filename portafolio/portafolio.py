@@ -19,9 +19,8 @@ def index() -> rx.Component:
             about(DATA.about),
             rx.divider(),
             tech_stack(DATA.technologies),
-            info("Experiencia", DATA.experience),
-            info("Proyectos", DATA.projects),
-            info("Formación", DATA.training),
+            info("Proyectos", DATA.projects, colored_icon=True),
+            info("Formación", DATA.training, colored_icon=True),
             extra(DATA.extras),
             rx.divider(),
             footer(DATA.media),
@@ -38,8 +37,8 @@ app = rx.App(
     stylesheets=STYLESHEETS,
     style=BASE_STYLE,
     theme=rx.theme(
-        appearance="dark",
-        accent_color="grass",
+        appearance="light",
+        accent_color="mint",
         radius="full"
     )
 )
