@@ -21,7 +21,7 @@ def index() -> rx.Component:
             tech_stack(DATA.technologies),
             info("Experiencia", DATA.experience),
             info("Proyectos", DATA.projects),
-            info("Formación", DATA.training),
+            info("Formación", DATA.training, colored_icon=True),
             extra(DATA.extras),
             rx.divider(),
             footer(DATA.media),

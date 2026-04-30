@@ -93,20 +93,20 @@
     ],
     "training": [
         {
-            "icon": "backpack",
-            "title": "Central West Junior High",
-            "subtitle": "Una escuela",
-            "description": "Aprendí cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "icon": "graduation-cap",
+            "title": "Servicio Nacional de Aprendizaje SENA",
+            "subtitle": "Técnico en programación de software",
+            "description": "",
+            "date": "2024",
+            "certificate": ""
         },
         {
             "icon": "graduation-cap",
-            "title": "Owen Patterson High",
-            "subtitle": "Otra escuela",
-            "description": "Aprendí más cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "title": "Servicio Nacional de Aprendizaje SENA",
+            "subtitle": "Tecnología en control ambiental",
+            "description": "",
+            "date": "2016",
+            "certificate": ""
         }
     ],
     "extras": [
