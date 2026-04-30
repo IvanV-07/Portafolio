@@ -39,22 +39,7 @@
             "name": "Postman"
         }
     ],
-    "experience": [
-        {
-            "icon": "terminal",
-            "title": "Metacortex",
-            "subtitle": "Programador",
-            "description": "Programo software respetable desde un cubículo.",
-            "date": "1999"
-        },
-        {
-            "icon": "rabbit",
-            "title": "Nebuchadnezzar",
-            "subtitle": "El Elegido",
-            "description": "Me encargo de salvar el mundo.",
-            "date": "1999 - Actualidad"
-        }
-    ],
+    "experience": [],
     "projects": [
         {
             "icon": "database",
