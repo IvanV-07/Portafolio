@@ -40,7 +40,8 @@ app = rx.App(
         appearance="dark",
         accent_color="mint",
         radius="full"
-    )
+    ),
+    enable_state=False,
 )
 
 title = DATA.title
